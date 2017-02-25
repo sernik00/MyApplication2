@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:paddingTop="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.andrey.myapplication2.AttachPhotoDialogFragment"
+    android:id="@+id/photo_dialog">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="80dp"
+            app:srcCompat="@drawable/ic_photo_camera_24dp"
+            android:id="@+id/camera_btn"
+            android:onClick="takePicture"
+            android:background="@android:color/transparent"
+            android:layout_height="68dp" />
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:layout_height="68dp"
+            app:srcCompat="@drawable/ic_image_24dp"
+            android:id="@+id/gallery_btn"
+            android:layout_marginLeft="90dp"
+            android:onClick="showGallery"
+            android:background="@android:color/transparent" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="@string/dialog_camera_caption"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_marginTop="70dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:text="@string/dialog_gallery_caption"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textAlignment="center"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="70dp" />
+    </RelativeLayout>
+
+</FrameLayout>

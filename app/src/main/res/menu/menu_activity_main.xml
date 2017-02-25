@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:title="@android:string/search_go"
+        android:icon="@drawable/ic_search_white_24dp"
+        yourapp:showAsAction="always|collapseActionView"
+        yourapp:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/action_micro"
+        android:icon="@drawable/ic_mic_white_24dp"
+        yourapp:showAsAction="always"
+        android:title="@string/search_mic_title" />
+    <item
+        android:id="@+id/action_remove"
+        android:icon="@drawable/ic_clear_white_24dp"
+        yourapp:showAsAction="always"
+        android:title="@string/search_clear_title" />
+</menu>

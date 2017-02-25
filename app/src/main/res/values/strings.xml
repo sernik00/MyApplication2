@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">MyApplication2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_login">Вход</string>
+    <string name="menu_profile">Профиль</string>
+    <string name="menu_settings">Уведомления</string>
+    <string name="title_activity_login">Авторизация</string>
+
+    <string name="hint_name">Имя</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_pass">Пароль</string>
+    <string name="error_name">Поле Имя не может быть пусто</string>
+    <string name="error_login">Неверное значение полей E-mail/Пароль</string>
+    <string name="btn_sign_in_text">Войти</string>
+    <string name="btn_sign_up_text">Зарегистрироваться</string>
+    <string name="tab_sign_in">Вход</string>
+    <string name="tab_sign_up">Регистрация</string>
+    <string name="tab_map">Карта</string>
+    <string name="tab_list">Список</string>
+
+    <string name="hint_vk">ID страницы ВКонтакте</string>
+    <string name="hint_avatar">Выбрать фотографию</string>
+    <string name="pref_name_title">Имя</string>
+    <string name="pref_notif_category">Уведомления</string>
+    <string name="pref_notif_title">Уведомления</string>
+    <string name="pref_notif_summary">Включить уведомления о новых происшествиях</string>
+    <string name="pref_sound_title">Звук уведомлений</string>
+    <string name="title_activity_lk">Личные настройки</string>
+
+    <string name="category_text_lk">Интересные категории</string>
+    <string-array name="event_category">
+        <item>Опасность для жизни</item>
+        <item>Авто</item>
+        <item>Животные</item>
+        <item>Потеря предмета</item>
+        <item>Кража</item>
+        <item>Другое</item>
+    </string-array>
+    <string-array name="event_category_full">
+        <item>Все категории</item>
+        <item>Опасность для жизни</item>
+        <item>Авто</item>
+        <item>Животные</item>
+        <item>Потеря предмета</item>
+        <item>Кража</item>
+        <item>Другое</item>
+    </string-array>
+    <string name="title_activity_create">Новое происшествие</string>
+    <string name="hint_event_text">Описание</string>
+    <string name="event_time_label">Срок актуальности</string>
+    <string name="event_category_label">Категория события</string>
+    <string name="event_category_prompt">Выберите категорию</string>
+    <string name="btn_create_text">Создать</string>
+    <string name="search_hint">Произнесите запрос</string>
+    <string name="search_clear_title">Очистить поиск</string>
+    <string name="search_mic_title">Голосовой поиск</string>
+    <string-array name="event_time">
+        <item>1 день</item>
+        <item>3 дня</item>
+        <item>Неделя</item>
+        <item>Месяц</item>
+    </string-array>
+    <string name="menu_save_title">Сохранить изменения</string>
+    <string name="btn_attach_photo">Прикрепить фото</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_negative">Закрыть</string>
+    <string name="dialog_photo_title">Выберите фото</string>
+    <string name="dialog_gallery_caption">Галерея</string>
+    <string name="dialog_camera_caption">Камера</string>
+    <string name="album_name">CameraSample</string>
+    <string name="btn_forget_text">Забыли пароль?</string>
+    <string name="title_activity_restore_pass">Восстановление пароля</string>
+    <string name="btn_restore_text">Восстановить</string>
+    <string name="event_address_label">Адрес события</string>
+    <string name="radio_gps_label">Использовать моё местоположение</string>
+    <string name="radio_address_label">Указать адрес</string>
+    <string name="event_address_text">Адрес</string>
+    <string name="gps_disabled_text">Недоступно</string>
+    <string name="service_not_available">Network or other service not available</string>
+    <string name="invalid_lat_long_used">Invalid Lat Long</string>
+    <string name="no_address_found">Не удалось определить адрес</string>
+    <string name="btn_gps_settings">Настройки местоположения</string>
+
+</resources>
